@@ -1,0 +1,433 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfólio | Nicoly Pietra</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Ícones Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU DE NAVEGAÇÃO -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#inicio">
+                NP.
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#perfil">Perfil</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Projetos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- APRESENTAÇÃO INICIAL -->
+    <header id="inicio" class="hero-section">
+
+        <div class="container">
+            <div class="row align-items-center min-vh-100 py-5">
+
+                <div class="col-lg-8" data-reveal>
+
+                    <p class="eyebrow">
+                        OLÁ, SEJA BEM-VINDO(A) AO MEU PORTFÓLIO
+                    </p>
+
+                    <h1>
+                        Olá, eu sou <span>Nicoly Pietra.</span>
+                    </h1>
+
+                    <h2 class="hero-subtitle">
+                        Estudante de Desenvolvimento de Sistemas
+                    </h2>
+
+                    <p class="hero-text">
+                        Estou desenvolvendo meus conhecimentos em programação
+                        e tecnologia, criando projetos e aprendendo a transformar
+                        ideias em soluções.
+                    </p>
+
+                    <div class="d-flex flex-wrap gap-3 mt-4">
+
+                        <a href="#projetos" class="btn btn-primary btn-lg">
+                            Ver meus projetos
+                        </a>
+
+                        <a href="#contato" class="btn btn-outline-light btn-lg">
+                            Entre em contato
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 text-center mt-5 mt-lg-0" data-reveal>
+
+                    <div class="profile-orbit">
+                        <div class="profile-monogram">NP</div>
+                    </div>
+
+                    <p class="mt-3 text-secondary">
+                        Tecnologia • Criatividade • Aprendizado
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <!-- SEÇÃO PERFIL -->
+    <section id="perfil" class="section-padding">
+
+        <div class="container">
+
+            <div class="section-heading" data-reveal>
+
+                <p class="eyebrow">UM POUCO SOBRE MIM</p>
+
+                <h2>Perfil</h2>
+
+            </div>
+
+            <div class="row g-4 align-items-center">
+
+                <div class="col-lg-8" data-reveal>
+
+                    <div class="content-panel">
+
+                        <h3>Prazer, sou a Nicoly!</h3>
+
+                        <p>
+                            Sou estudante do curso Técnico em Desenvolvimento
+                            de Sistemas do Centro Paula Souza (CPS).
+                            Tenho interesse pela área de tecnologia e estou
+                            construindo minha experiência por meio de atividades
+                            práticas e projetos acadêmicos.
+                        </p>
+
+                        <p>
+                            Meu objetivo é continuar aprendendo, aprimorar
+                            minhas habilidades em programação e desenvolver
+                            soluções cada vez melhores.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4" data-reveal>
+
+                    <div class="info-card">
+
+                        <i class="bi bi-mortarboard"></i>
+
+                        <h4>Formação</h4>
+
+                        <p>
+                            Técnico em Desenvolvimento de Sistemas — CPS
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SEÇÃO PROJETOS -->
+    <section id="projetos" class="section-padding section-alt">
+
+        <div class="container">
+
+            <div class="section-heading" data-reveal>
+
+                <p class="eyebrow">O QUE ESTOU CONSTRUINDO</p>
+
+                <h2>Meus projetos</h2>
+
+                <p>
+                    Alguns trabalhos desenvolvidos durante meus estudos.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Projeto 1 -->
+                <div class="col-md-6 col-lg-4" data-reveal>
+
+                    <article class="project-card h-100">
+
+                        <div class="project-icon">
+                            <i class="bi bi-droplet-half"></i>
+                        </div>
+
+                        <span class="project-tag">Python</span>
+
+                        <h3>Controle de Níveis de Água</h3>
+
+                        <p>
+                            Programa de monitoramento de níveis de reservatório
+                            no terminal, com indicação visual para cada nível.
+                        </p>
+
+                        <a href="https://github.com/Nicoly-Pietra/controle-niveis-agua"
+                           target="_blank" rel="noopener noreferrer">
+                            Ver repositório
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a>
+
+                    </article>
+
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="col-md-6 col-lg-4" data-reveal>
+
+                    <article class="project-card h-100">
+
+                        <div class="project-icon">
+                            <i class="bi bi-lightning-charge"></i>
+                        </div>
+
+                        <span class="project-tag">Python</span>
+
+                        <h3>Consumo de Energia</h3>
+
+                        <p>
+                            Programa que calcula o consumo mensal de energia
+                            de um aparelho a partir da potência e do tempo de uso.
+                        </p>
+
+                        <a href="https://github.com/Nicoly-Pietra"
+                           target="_blank" rel="noopener noreferrer">
+                            Ver perfil no GitHub
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a>
+
+                    </article>
+
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="col-md-6 col-lg-4" data-reveal>
+
+                    <article class="project-card h-100">
+
+                        <div class="project-icon">
+                            <i class="bi bi-globe2"></i>
+                        </div>
+
+                        <span class="project-tag">HTML e CSS</span>
+
+                        <h3>Meus Sites Favoritos</h3>
+
+                        <p>
+                            Página web criada para organizar sites favoritos,
+                            com imagens, títulos e links de acesso.
+                        </p>
+
+                        <a href="https://github.com/Nicoly-Pietra"
+                           target="_blank" rel="noopener noreferrer">
+                            Ver perfil no GitHub
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SEÇÃO HABILIDADES -->
+    <section id="habilidades" class="section-padding">
+
+        <div class="container">
+
+            <div class="section-heading" data-reveal>
+
+                <p class="eyebrow">EM DESENVOLVIMENTO</p>
+
+                <h2>Habilidades e tecnologias</h2>
+
+                <p>
+                    Ferramentas e conhecimentos que estou estudando e praticando.
+                </p>
+
+            </div>
+
+            <div class="row g-3">
+
+                <div class="col-6 col-md-3" data-reveal>
+                    <div class="skill-item">
+                        <i class="bi bi-filetype-html"></i>
+                        <span>HTML</span>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3" data-reveal>
+                    <div class="skill-item">
+                        <i class="bi bi-filetype-css"></i>
+                        <span>CSS</span>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3" data-reveal>
+                    <div class="skill-item">
+                        <i class="bi bi-filetype-py"></i>
+                        <span>Python</span>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3" data-reveal>
+                    <div class="skill-item">
+                        <i class="bi bi-github"></i>
+                        <span>GitHub</span>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3" data-reveal>
+                    <div class="skill-item">
+                        <i class="bi bi-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SEÇÃO CONTATO -->
+    <section id="contato" class="section-padding section-alt">
+
+        <div class="container">
+
+            <div class="section-heading text-center" data-reveal>
+
+                <p class="eyebrow">VAMOS CONVERSAR?</p>
+
+                <h2>Contato</h2>
+
+                <p>
+                    Conheça meus projetos ou entre em contato pelos canais abaixo.
+                </p>
+
+            </div>
+
+            <div class="contact-panel mx-auto" data-reveal>
+
+                <a href="https://github.com/Nicoly-Pietra"
+                   target="_blank" rel="noopener noreferrer">
+
+                    <i class="bi bi-github"></i>
+
+                    <span>GitHub</span>
+
+                    <i class="bi bi-arrow-up-right ms-auto"></i>
+
+                </a>
+
+                <div class="contact-placeholder">
+
+                    <i class="bi bi-envelope"></i>
+
+                    <span>pietradasilvanicoly@gmail.com</span>
+
+                </div>
+
+                <a href="#" onclick="return false;">
+
+                    <i class="bi bi-linkedin"></i>
+
+                    <span>Linkedin(https://www.linkedin.com/in/nicoly-pietra-6b888627b?utm_source=share_via&utm_content=profile&utm_medium=member_ios)
+                        
+                    </span>
+
+                    <i class="bi bi-pencil ms-auto"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="py-4">
+
+        <div class="container text-center">
+
+            <p>
+                Desenvolvido por <strong>Nicoly Pietra</strong>
+            </p>
+
+            <small>
+                Portfólio pessoal • 2026
+            </small>
+
+        </div>
+
+    </footer>
+
+    <!-- BOTÃO VOLTAR AO TOPO -->
+    <a href="#inicio" class="back-to-top" aria-label="Voltar ao início">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript personalizado -->
+    <script src="script.js"></script>
+
+</body>
+</html>
