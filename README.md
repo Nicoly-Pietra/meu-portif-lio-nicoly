@@ -43,10 +43,3 @@ O JavaScript utiliza a API `IntersectionObserver` para identificar quando os ele
 
 No CSS, essa classe controla a animação de entrada por meio de transições de opacidade e movimento. O botão de voltar ao topo utiliza um evento de rolagem da página para controlar sua exibição.
 
-## Link do portfólio publicado
-
-Após publicar o projeto pelo GitHub Pages, adicione aqui o endereço do seu site.
-
-Exemplo:
-
-`https://nicoly-pietra.github.io/meu-portfolio-nicoly/`
